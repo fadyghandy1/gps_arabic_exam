@@ -1,0 +1,145 @@
+
+.containerim {
+  max-width: 50%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  color: white;
+}
+/* #btnn{
+  z-index: 3;
+  width: 100px;
+  height: 500px;
+} */
+#a1{
+   display: none; 
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  bottom: 0%;
+  /* left: 60%; */
+  right: 11%;
+  top: 53%;
+  font-weight: bold;
+  font-size: 28px;
+  color: #000;
+  font-family:'Amiri', serif; 
+}
+#a2{
+  width: 10%;
+  height: 10%;
+   display: none; 
+  position:absolute;
+  bottom: 0%;
+  left: 20%;
+  right: 21%;
+  top: 22%;
+  font-weight: bold;
+  font-size: 28px;
+  color: #000;
+  font-family:'Amiri', serif; 
+}
+#a3{
+  width: 10%;
+  height: 10%;
+   display: none; 
+  position: absolute;
+  bottom: 0%;
+  left:45%;
+  /* right: 30%; */
+  top: 10%;
+  font-weight: bold;
+  font-size: 28px;
+  color: #000;
+  font-family:'Amiri', serif; 
+}
+#a4{
+  width: 10%;
+  height: 10%;
+  display: none;
+  position: absolute;
+  bottom: 0px;
+  left:10%;
+  right: 68%;
+  top: 52%;
+  font-weight: bold;
+  font-size: 28px;
+  color: #000;
+  font-family:'Amiri', serif; 
+}
+#a5{
+  width: 10%;
+  height: 10%;
+  display: none;
+  position: fixed;
+  bottom: 0px;
+  left:57%;
+  top: 20%;
+  font-weight: bold;
+  font-size: 28px;
+  color: #000;
+  font-family:'Amiri', serif; 
+}
+ #imascontainer{
+  width: 90%;
+  height: 90%;
+}
+#btnn{
+  /* display: none; */
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  bottom: 0;
+  left: 35%;
+  right: 35%;
+  top: 40%;
+  font-weight: bold;
+  font-size: 24px;
+  background-color: #a7151505;
+  cursor: pointer;
+  z-index: 1;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 300px) {
+  #a1,#a2,#a3,#a4,#a5{
+  font-size: 20%;}
+ 
+}
+@media only screen and (max-width: 600px) {
+  #a1,#a2,#a3,#a4,#a5{
+  font-size: 70%;}
+ 
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+  #a1,#a2,#a3,#a4,#a5{
+    font-size: 70%;}
+   
+  }
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #a1,#a2,#a3,#a4,#a5{
+      font-size: 80%;}
+     
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+  #a1,#a2,#a3,#a4,#a5{
+    font-size: 200%;}
+   
+} 
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+  .example {background: pink;} */
+/* }   */
+		
